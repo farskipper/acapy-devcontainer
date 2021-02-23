@@ -1,0 +1,10 @@
+version: "3.4"
+
+services:
+  workspace:
+    build:
+      context: .
+    working_dir: /workspace
+    volumes:
+      - "..:/workspace"
+    command: sleep infinity
