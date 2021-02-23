@@ -55,6 +55,11 @@
       "/workspace/aries-acapy-plugin-toolbox",
       "/workspace/aries-cloudagent-python"
     ],
+    "python.autoComplete.extraPaths": [
+      "/home/vscode/.local/lib/python3.8/site-packages/",
+      "/workspace/aries-acapy-plugin-toolbox",
+      "/workspace/aries-cloudagent-python"
+    ],
 
     "files.exclude": {
       "volumes": true // so vscode doesn't try and analyze it, or run into permission issues on a linux host
